@@ -7,7 +7,7 @@ export default function setUpSearch() {
 
   function searchRedirect() {
     window.location.href =
-      `amazon.html?search=${input.value}`
+      `index.html?search=${input.value}`
   }
 
   button.addEventListener('click', searchRedirect)
